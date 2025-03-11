@@ -1,7 +1,7 @@
 ## Nikhil Bansal – Portfolio Website
 A modern, responsive, and interactive portfolio website for Nikhil Bansal, a graphic designer. This site showcases his work, skills, and contact information with smooth animations and modern UI effects.
 🚀 Live Demo
-🔗 View the Live Site ()
+🔗 View the Live Site (https://nikks-portfolio-site.netlify.app/)
 
 # 🛠 Tech Stack
 Frontend: HTML, CSS, JavaScript
