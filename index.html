@@ -34,9 +34,9 @@
 
 </head>
 
-<body class="bg-[#e9edf9] text-[#1A1A1A] dark:bg-gray-900">
+<body class="bg-[#e9edf9] text-[#1A1A1A] dark:bg-gray-950">
     <!-- Navigation -->
-    <nav class="animate-fadeInDown sticky top-0 bg-[#cbbbcb] dark:bg-gray-900/95 backdrop-blur z-50 py-4">
+    <nav class="animate-fadeInDown sticky top-0 bg-[#cbbbcb] dark:bg-gray-950 backdrop-blur z-50 py-4">
         <div class="mx-auto container overflow-hidden px-4 flex justify-between items-center">
             <div class="text-xl font-bold text-gray-800 dark:text-white"><img src="/Images/genious.png" alt="Project"
                     class="rounded-xl h-16"></div>
@@ -91,25 +91,30 @@
 
     <!-- Hero Section -->
     <section id="home"
-        class="animate-fade-in relative flex items-center justify-center h-screen dark:bg-gray-900 dark:text-gray-200 bg-gradient-to-r from-[#bac1d8] via-[#e9edf9] to-[#bac1d8]">
+        class="animate-fade-in relative flex items-center justify-center h-screen  dark:text-gray-200">
 
         <!-- background-video -->
-        <video autoplay muted loop class="inset-0  absolute w-full h-screen hidden dark:block object-cover">
+        <!-- <video autoplay muted loop class="inset-0  absolute w-full h-screen hidden dark:block object-cover">
             <source src="/Videos/bakground.mp4" type="video/mp4">
-        </video>
+        </video> -->
 
         <!-- black overlay -->
-        <div class="absolute inset-0 h-full w-full dark:bg-black opacity-65"></div>
+        <!-- <div class="absolute inset-0 h-full w-full dark:bg-black opacity-65"></div> -->
 
 
-        <div class="relative z-10 text-center px-6">
-            <h1 class="text-4xl md:text-6xl font-bold dark:text-indigo-400  text-shadow animate">Transforming Ideas into
-                Stunning
-                Visuals</h1>
+        <div class="relative z-10 text-center px-6 leading-relaxed">
+            <h1 class="text-4xl md:text-6xl font-bold animate">Transforming <span class="dark:text-violet-400 gradient">Ideas</span> into<br>
+                <span class="dark:text-violet-400">Stunning
+                Visuals</span></h1>
             <p class="mt-4 text-lg md:text-xl dark:text-gray-200 animate">Creative, bold, and impactful designs that
                 make
                 your brand
                 stand out.</p>
+
+                <!--! Testing Gradient Text -->
+                <h1 class="text-4xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
+                    Gradient Text
+                  </h1>
 
             <div class="mt-15 2xs:flex-row flex flex-col xs:gap-5 gap-5 space-y-3 justify-center">
                 <div class="animate-btn1"><a href="#portfolio"
@@ -128,7 +133,7 @@
 
     <!-- About Section -->
     <section id="about"
-        class="py-20 2xs:h-[70vh] dark:bg-gradient-to-r dark:from-[#121212] dark:via-[#1c1c3c] dark:to-[#121212] grid place-items-center bg-gradient-to-r from-[#d2d2d2] to-[#b4a0bc]">
+        class="py-20 2xs:h-[70vh] grid place-items-center">
         <div class="container mx-auto px-4 max-w-3xl text-center">
             <h2
                 class="2xs:text-6xl text-4xl font-bold mb-6 text-black dark:text-purple-300 text-shadow text-center font-urbanist animate">

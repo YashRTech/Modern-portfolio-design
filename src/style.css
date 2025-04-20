@@ -30,6 +30,10 @@
 }
 
 
+.gradient{
+    color: linear-gradient(to right, white, rgb(238, 64, 238));
+}
+
 
 /* nav */
 
