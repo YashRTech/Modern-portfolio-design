@@ -1,35 +1,22 @@
 @import "tailwindcss";
+@import "./utility.css";
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --animate-fade-in: appear 1s linear ;
-  --breakpoint-2xs:420px;
-  --breakpoint-xs:520px;
+  --animate-fade-in: appear 1s linear;
+  --breakpoint-2xs: 420px;
+  --breakpoint-xs: 520px;
 
   @keyframes appear {
     from {
       opacity: 0;
-      
     }
     to {
       opacity: 1;
-      
     }
   }
 
-  --animate-glow: glow 1s ease-in-out;
-  @keyframes glow {
-    0% {
-      box-shadow: 0 0 0px rgba(255, 255, 0, 0);
-    }
-    50% {
-      box-shadow: 0 0 20px rgba(255, 255, 0, 1);
-    }
-    100% {
-      box-shadow: 0 0 0px rgba(255, 255, 0, 0);
-    }
-  }
-  --animate-fadeInDown:fadeInDown 2s ease-out;
+  --animate-fadeInDown: fadeInDown 2s ease-out;
 
   @keyframes fadeInDown {
     from {
@@ -39,13 +26,13 @@
       -moz-transform: translateY(-150px);
       -ms-transform: translateY(-150px);
       -o-transform: translateY(-150px);
-}
+    }
     to {
       opacity: 1;
       transform: translateY(0);
     }
   }
-  --animate-fadeInDown2:fadeInDown2 0.7s ease-out;
+  --animate-fadeInDown2: fadeInDown2 0.7s ease-out;
 
   @keyframes fadeInDown2 {
     from {
@@ -55,13 +42,13 @@
       -moz-transform: translateY(-50px);
       -ms-transform: translateY(-50px);
       -o-transform: translateY(-50px);
-}
+    }
     to {
       opacity: 1;
       transform: translateY(0);
     }
   }
-  --animate-btn1:btn1 1s ease-out;
+  --animate-btn1: btn1 1s ease-out;
 
   @keyframes btn1 {
     from {
@@ -76,37 +63,7 @@
       -moz-transform: translateY(-70px);
       -ms-transform: translateY(-70px);
       -o-transform: translateY(-70px);
-}
-    to {
-      opacity: 1;
-      transform: translateY(0);
-      transform: translateX(0);
-      -webkit-transform: translateX(0);
-      -moz-transform: translateX(0);
-      -ms-transform: translateX(0);
-      -o-transform: translateX(0);
-      -webkit-transform: translateY(0);
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -o-transform: translateY(0);
-}
-  }
-  --animate-btn2:btn2 1.3s ease-out;
-
-  @keyframes btn2 {
-    from {
-      opacity: 0;
-      transform: translateY(-70px);
-      transform: translateX(-50px);
-      -webkit-transform: translateX(-50px);
-      -moz-transform: translateX(-50px);
-      -ms-transform: translateX(-50px);
-      -o-transform: translateX(-50px);
-      -webkit-transform: translateY(-70px);
-      -moz-transform: translateY(-70px);
-      -ms-transform: translateY(-70px);
-      -o-transform: translateY(-70px);
-}
+    }
     to {
       opacity: 1;
       transform: translateY(0);
@@ -121,11 +78,38 @@
       -o-transform: translateY(0);
     }
   }
-  
-  
-  
+  --animate-btn2: btn2 1.3s ease-out;
+
+  @keyframes btn2 {
+    from {
+      opacity: 0;
+      transform: translateY(-70px);
+      transform: translateX(-50px);
+      -webkit-transform: translateX(-50px);
+      -moz-transform: translateX(-50px);
+      -ms-transform: translateX(-50px);
+      -o-transform: translateX(-50px);
+      -webkit-transform: translateY(-70px);
+      -moz-transform: translateY(-70px);
+      -ms-transform: translateY(-70px);
+      -o-transform: translateY(-70px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -o-transform: translateY(0);
+    }
+  }
+
 
 
   --font-urbanist: "Urbanist", sans-serif;
- 
 }

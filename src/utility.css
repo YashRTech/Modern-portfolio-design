@@ -1,0 +1,22 @@
+.gradient-text {
+  @apply bg-gradient-to-r from-violet-300  to-violet-500 bg-clip-text text-transparent;
+}
+
+
+.btn1{
+    @apply hover:scale-[1.05] transition-all duration-300 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] bg-violet-500 rounded-full hover:bg-violet-600
+}
+.btn2{
+    @apply xs:ml-2 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] text-gray-100 bg-gray-950 border hover:bg-gray-800 hover:text-gray-300 rounded-full 
+}
+.animate-round{
+    animation: round 15s linear infinite;
+}
+@keyframes round {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
