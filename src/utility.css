@@ -1,22 +1,38 @@
+:root {
+  --foreground: 0 0% 98%;
+}
+
+
 .gradient-text {
-  @apply bg-gradient-to-r from-violet-300  to-violet-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-violet-800  to-[#B100FF] bg-clip-text text-transparent;
+}
+.gradient-bg {
+  @apply bg-gradient-to-r from-violet-800  to-[#B100FF];
+}
+.border-special {
+  border: 1px solid #b100ff;
 }
 
-
-.btn1{
-    @apply hover:scale-[1.05] transition-all duration-300 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] bg-violet-500 rounded-full hover:bg-violet-600
+.btn1 {
+  @apply hover:scale-[1.05] transition-all duration-300 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] bg-gradient-to-r from-violet-800  to-[#B100FF] rounded-full hover:opacity-80;
 }
-.btn2{
-    @apply xs:ml-2 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] text-gray-100 bg-gray-950 border hover:bg-gray-800 hover:text-gray-300 rounded-full 
+.btn2 {
+  @apply xs:ml-2 xs:px-7 xs:py-4 px-3 py-1.5 font-[550] text-gray-100 bg-gray-950 border hover:bg-gray-800 hover:text-gray-300 rounded-full hover:scale-[1.05];
 }
-.animate-round{
-    animation: round 15s linear infinite;
+.animate-round {
+  animation: round 15s linear infinite;
 }
 @keyframes round {
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.glass-card {
+  background-color: hsl(var(--foreground) / 0.05);
+  border-width: 1px;
+  border-color: hsl(var(--foreground) / 0.1);
 }
