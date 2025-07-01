@@ -118,3 +118,7 @@
     }
 
 }
+
+.filter-btn,.send-btn{
+    cursor: pointer;
+}
